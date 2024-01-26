@@ -54,4 +54,57 @@ if texto1 == "Campus":
 else:
     print("No soy Campus")
 
+
+#----Funciones----
+
+#1.Arguments
+
+def happy_birthday(name, age):
+    print(f"Happy birthday to {name}")
+    print(f"You are {age} years old")
+    print("Happy birthday to you")
+    print()
+
+happy_birthday("bro", 20)
+happy_birthday("steve", 30)
+happy_birthday("joe", 40)
+
+#2.Return
+
+def add(x, y):
+    z = x + y
+    return z
+
+def subtract(x, y):
+    z = x - y
+    return z
+
+def multiply(x, y):
+    z = x * y
+    return z
+
+def div(x, y):
+    z = x / y
+    return z
+
+print(add(1, 2))
+print(subtract(1, 2))
+print(multiply(1, 2))
+print(div(1, 2))
+
+#----Arreglos----
+
+#1.List
+# [] ordenado y modificable. Duplicados OK
+fruits = ["apple", "orange", "banana", "coconut"]
+
+#2.Set
+#{} desordenado e inmutable, pero Agregar o quitar está bien. NO duplicados
+fruits = {"apple", "orange", "banana", "coconut"}
+
+#3.Tuple
+#() ordenado e inmutable. Duplicados OK. MÁS RÁPIDO
+fruits = ("apple", "orange", "banana", "coconut")
+
+
 ## Desarrollado por JAIR ANDRES BERNAL GARCIA - 1098607050
