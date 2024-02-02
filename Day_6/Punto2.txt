@@ -1,0 +1,6 @@
+Mutable: el objeto puede cambiar su valor. Ejemplos: listas, diccionarios, conjuntos.
+Inmutable: el objeto no puede cambiar su valor. Ejemplos: cadenas, números, tuplas.
+
+Las estructuras de datos que tienen la característica de mutabilidad son las que pueden cambiar su valor, 
+como las listas, los diccionarios y los conjuntos. Las estructuras de datos que tienen la característica de 
+inmutabilidad son las que no pueden cambiar su valor, como las cadenas, los números y las tuplas.
